@@ -1,0 +1,158 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "work": "Work Experience",
+    "awards": "Awards"
+  },
+  "basics": {
+    "name": "Raghul Asokan",
+    "email": "mailcorahul@gmail.com",
+    "phone": "+91 9566063156",
+    "location": {
+      "address": "Chennai, India"
+    },
+    "website": "github.com/mailcorahul"
+  },
+  "education": [
+    {
+      "endDate": "May 2016",
+      "institution": "Anna University(SSNCE)",
+      "location": "Chennai, India",
+      "studyType": "Bachelor's in",
+      "area": "Computer Science",
+      "gpa": "8.6",
+      "startDate": "Aug 2012"
+    },
+    {
+      "institution": "Marian Mat. Hr. Sec. School",
+      "location": "Chennai, India",
+      "studyType": "Class XII",
+      "area": "State Board, 97%",
+      "endDate": "April 2012",
+      "startDate": "June 2011"
+    }
+  ],
+  "work": [
+    {
+      "company": "Zoho Corporation",
+      "location": "Chennai, India",
+      "website": "",
+      "endDate": "Present",
+      "highlights": [
+        null
+      ],
+      "position": "Deep Learning Engineer at ZLabs",
+      "startDate": "June 2016"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "C",
+        "C++",
+        "Python",
+        "Java"
+      ]
+    },
+    {
+      "keywords": [
+        "Numpy",
+        "OpenCV",
+        "PyTorch",
+        "Keras"
+      ],
+      "name": "Deep Learning"
+    },
+    {
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "jQuery",
+        "Apache Tomcat",
+        "CherryPy"
+      ],
+      "name": "Web"
+    },
+    {
+      "keywords": [
+        "Linux",
+        "Windows"
+      ],
+      "name": "Platforms"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Developed an Optical Character Recognition(OCR) pipeline using Neural Networks for extracting useful receipt information such as amount, date, mode of payment, currency. This end-to-end pipeline consists of various stages such as Orientation Detection, Text Detection, Text Recognition and Information Retrieval. Text Recognition architectures:CNN+BLSTM+CTC, CNN+CTC(Rosetta). Text Recognition Dataset: Synthetically generated word images using various fonts, backgrounds and image transformations, Accuracy: ",
+      "keywords": [
+        "Keras",
+        "OpenCV",
+        "Numpy"
+      ],
+      "name": "Receipt Digitizer"
+    },
+    {
+      "keywords": [
+        "OpenCV",
+        "DeepSpeech"
+      ],
+      "name": "Subtitle Generator/Video Summarizer",
+      "description": "This subtitle generator pipeline consists of multiple stages such as Audio extraction, Voice Activity Detection, Segmentation, Speech-to-Text using Deep Speech and a Text Summarizer.",
+      "url": "https://github.com/mailcorahul/subs_generator"
+    },
+    {
+      "keywords": [
+        null
+      ],
+      "name": "Image Super-Resolution Using Deep Convolutional Networks",
+      "description": "A PyTorch implementation of the paper for enhancing the quality of word images used for OCR Word Recognition.Dataset used: Synthetically generated receipt word images.Accuracy:",
+      "url": "https://github.com/mailcorahul/super_resolution"
+    },
+    {
+      "keywords": [
+        "OpenCV",
+        "Tensorflow"
+      ],
+      "name": "Other Computer Vision Projects                                      ",
+      "description": "Character Recognition using CNN, Text Detection using Maximally Stable Extremal Regions and Boundary Detection in Receipts using Structured Forests and Hough Line Transform.",
+      "url": "https://github.com/mailcorahul/one_common_repo"
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "Cloud Service Ranking and Selection - A Genetic Algorithm Approach(B.E Project)",
+      "description": "This project focuses on a system which uses an optimization algorithm - Genetic Algorithm for cloud service selection based on parameters such as processor speed, cost, RAM etc.",
+      "url": "https://github.com/mailcorahul/GA"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Obtained Merit Scholarship for the year 2013-2014 for the securing second rank in Anna University examination.",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Won first place in Coding contest in Reboot, a National level Technical Symposium organized by MCA department held at SSN College of Engineering."
+    },
+    {
+      "title": "Secured third place in Zia Hackathon 2018 - A Machine Learning Hackathon held at Zoho Corporation."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

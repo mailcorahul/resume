@@ -1,0 +1,151 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Raghul Asokan}}\\
+	Chennai, India $\cdot$ mailcorahul@gmail.com $\cdot$ +91 9566063156 $\cdot$ github.com/mailcorahul\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Anna University(SSNCE)}\hfill Chennai, India\\
+Bachelor\textquotesingle{}s in Computer Science \textit{GPA: 8.6} \hfill Aug 2012 - May 2016\\
+\vspace{2mm}
+\textbf{Marian Mat. Hr. Sec. School}\hfill Chennai, India\\
+Class XII State Board, 97\% \hfill June 2011 - April 2012\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{Zoho Corporation} \hfill Chennai, India\\
+\textit{Deep Learning Engineer at ZLabs} \hfill June 2016 | Present\\
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Programming Languages: & C, C++, Python, Java                                   \\
+	Deep Learning:         & Numpy, OpenCV, PyTorch, Keras                          \\
+	Web:                   & HTML, CSS, Javascript, jQuery, Apache Tomcat, CherryPy \\
+	Platforms:             & Linux, Windows                                         \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{Receipt Digitizer}} {\sl Keras, OpenCV, Numpy} \\
+Developed an Optical Character Recognition(OCR) pipeline using Neural Networks for extracting useful receipt information such as amount, date, mode of payment, currency. This end-to-end pipeline consists of various stages such as Orientation Detection, Text Detection, Text Recognition and Information Retrieval.\\            
+            \begin{itemize}
+                \itemsep-0.5em
+                \item Text Recognition architectures:CNN+BLSTM+CTC, CNN+CTC(Rosetta).
+                \item Text Recognition Dataset: Synthetically generated word images using various fonts, backgrounds and image transformations.
+                \item Single Word Accuracy(SWA) of 85\%.
+            \end{itemize}
+\vspace*{2mm}
+{\textbf{Subtitle Generator/Video Summarizer}} {\sl OpenCV, DeepSpeech} \hfill \textit{https://github.com/mailcorahul/subs\_generator}\\
+This subtitle generator pipeline consists of multiple stages such as Audio extraction, Voice Activity Detection, Segmentation, Speech-to-Text using Deep Speech and a Text Summarizer.\\
+\vspace*{2mm}
+{\textbf{Image Super-Resolution Using Deep Convolutional Networks}}\hfill \textit{https://github.com/mailcorahul/super\_resolution}\\
+A PyTorch implementation of the paper for enhancing the quality of word images used for OCR Word Recognition.\\
+    \begin{itemize}
+        \itemsep-0.5em
+        \item Dataset used: Synthetically generated receipt word images.
+        \item Accuracy - Average PSNR: 19.92 dB
+    \end{itemize}
+
+\vspace*{2mm}
+{\textbf{Other Computer Vision Projects}} \\ \textit{https://github.com/mailcorahul/computer\_vision}\\
+
+    \begin{itemize}
+        \itemsep-0.5em
+        \item Character Recognition(94 classes) using CNN.Synthetic character dataset using 9217 fonts, Accuracy - 95\%.
+        \item Text Detection using Maximally Stable Extremal Regions with increased recall and performance.
+        \item Boundary Detection in Receipts using Structured Forests and Hough Line Transform.\\
+    \end{itemize}
+\vspace*{2mm}
+{\textbf{Cloud Service Ranking and Selection - A Genetic Algorithm Approach(B.E Project)}}\hfill \textit{https://github.com/mailcorahul/GA}\\
+This project focuses on a system which uses an optimization algorithm - Genetic Algorithm for cloud service selection based on parameters such as processor speed, cost, RAM etc.\\
+\vspace*{2mm}
+
+\header{Awards}
+\textbf{Obtained Merit Scholarship for the year 2013-2014 for the securing second rank in Anna University examination.}\\
+
+\vspace*{2mm}
+\textbf{Won first place in Coding contest in Reboot, a National level Technical Symposium organized by MCA department held at SSN College of Engineering.}\\
+
+\vspace*{2mm}
+\textbf{Secured third place in Zia Hackathon 2018 - A Machine Learning Hackathon held at Zoho Corporation.}\\
+
+\vspace*{2mm}
+
+\ 
+\end{document}
