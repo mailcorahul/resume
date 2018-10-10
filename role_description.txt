@@ -1,0 +1,3 @@
+Working as Deep Learning Engineer at ZLabs, Research and Development Department at Zoho Corporation.
+Developed an Optical Character Recognition(OCR) pipeline using Neural Networks for extracting useful receipt information such as amount, date, mode of payment and currency.
+Productionized OCR pipeline as a REST API for use by Zoho Expense, an online Expense Report Software.
