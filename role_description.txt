@@ -1,3 +1,11 @@
 Working as a Deep Learning Engineer at ZLabs, Research and Development Department at Zoho Corporation.
 Developed an Optical Character Recognition(OCR) pipeline using Neural Networks for extracting useful receipt information such as amount, date, mode of payment and currency.
 Productionized OCR pipeline as a REST API for use by Zoho Expense, an online Expense Report Software.
+
+
+
+I am currently working as a Deep Learning Engineer in a Machine Learning Startup and have 3 years of industry experience in Deep Learning solving hard real world problems. I have worked on projects such as Optical Character Recognition(Text Detection as well Recognition) and Object Detection(for Retail Domain automation), two of which are challenging yet interesting real world problems. Beside these, I also write blogs on Neural Networks and implement research papers(such as Neural Style Transfer, Super Resolution) from the scratch. I wish to pursue a better career in my field and I know the only way to do so is to be proactive, keep learning and get hands-on.
+
+
+
+From my 3 years of industry experience working in the field of Deep Learning, I realized that implementing a small project/paper is one thing whereas solving real world problems(which can't be solved just by using any open-source implementation) is a completely different thing. Ever since I started my career in Deep Learning, I realized that getting hands-on(along with forming intuitions) is one of the most(if not the most) important aspect, which made me implement papers from scratch and write tech blogs. I believe I have the experience/expertise(above all, patience) to solve a deep learning problem. Most importantly I wish to learn and gain more experience from fellow practitioners which is the reason I am applying for this scholarship.
