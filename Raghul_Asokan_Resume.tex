@@ -94,8 +94,8 @@ Class XII State Board, 97\% \hfill June 2011 - April 2012\\
 
 \begin{itemize}
     \itemsep-0.5em
-    \item Japanese and Arabic Scene Text Detection on Point of Sale Materials. Architecture: Densebox(EAST).
-    \item Retail Shelf Parsing for General/Modern Trade using Object Detection. Architectures: SSD, RetinaNet.
+    \item Training and deployment of object detection models for Retail shelf image parsing. Architectures: SSD, RetinaNet.
+    \item Developed text detection models(arabic and japanese) for Analysis of retail point-of-sale materials. Architecture: Densebox(EAST).
 \end{itemize}
 \vspace*{1mm}
 
@@ -104,29 +104,27 @@ Class XII State Board, 97\% \hfill June 2011 - April 2012\\
 
 \begin{itemize}
     \itemsep-0.5em
-    \item Developed an Optical Character Recognition(OCR) pipeline for Zoho Expense, an online Expense Report Software, which extracts useful receipt information such as amount, date, mode of payment and currency. This end-to-end pipeline consists of various stages such as Orientation Detection, Text Detection, Text Recognition and Information Retrieval.
-    \begin{itemize}
-    \item Text Recognition architectures: CNN + BLSTM + CTC, CNN + CTC(Rosetta).
-    \item Text Recognition Dataset: Synthetically generated word images using various fonts, backgrounds and image transformations.
-    \item Single Word Accuracy(SWA) of 85\%.
-    \end{itemize}
+    \item Developed end-to-end Optical Character Recognition(OCR) Pipeline for Zoho Expense - an online Expense Report Software.
+    \item Training and productionization of deep learning models for Text recognition. Architectures: CNN + BLSTM + CTC, CNN + CTC(Rosetta), SWA: 0.85
+    \item Synthetic data generation.
+    \item Built data annotation tool for Text recognition.
 \end{itemize}
 
-\header{Projects}
-{\textbf{Neural Style Transfer}} \hfill \textit{https://github.com/mailcorahul/deep\_learning/tree/master/papers/neural\_style\_transfer}\\
+\header{Projects(\textit{https://github.com/mailcorahul/deep\_learning})}
+{\textbf{Neural Style Transfer}}\\
 PyTorch implementation of the paper "A Neural Algorithm of Artistic Style by Gatys et. al".\\
 \vspace*{2mm}
 
-{\textbf{Image Super-Resolution Using Deep Convolutional Networks}}\hfill \textit{https://github.com/mailcorahul/deep\_learning/tree/master/papers/super\_resolution}\\
-PyTorch implementation of the paper for enhancing the quality of word images used for OCR Word Recognition.\\
-    \begin{itemize}
-        \itemsep-0.5em
-        \item Dataset used: Synthetically generated receipt word images.
-        \item Accuracy - Average PSNR: 19.92 dB
-    \end{itemize}
+{\textbf{Image Super-Resolution Using Deep Convolutional Networks}}\\
+\begin{itemize}
+    \itemsep-0.5em
+    \item PyTorch implementation of the paper for enhancing the quality of word images used for OCR Word Recognition.
+    \item Dataset used: Synthetically generated receipt word images.
+    \item Accuracy - Average PSNR: 19.92 dB
+\end{itemize}
 
 \vspace*{2mm}
-{\textbf{Other Computer Vision Projects}} \\ \textit{https://github.com/mailcorahul/computer\_vision}
+{\textbf{Other Computer Vision Projects(\textit{https://github.com/mailcorahul/computer\_vision})}}
     \begin{itemize}
         \itemsep-0.5em
         \item e-Commerce Product Duplicate Detection using Siamese Neural Networks(One shot learning).
